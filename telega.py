@@ -32,7 +32,7 @@ async def generator(user_input, max_len=50, accuracy=1):
     return generated_text
 
 # Токен вашего Telegram-бота
-TELEGRAM_TOKEN = '7342298864:AAGrtsYsapl6a6WMs3B27SgKKrgLItMPoog'
+TELEGRAM_TOKEN = 'YOUR_BOT:TOKEN'
 
 # Асинхронная функция для обработки сообщений Telegram
 async def handle_message(update: Update, context: CallbackContext):
